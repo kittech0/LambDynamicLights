@@ -71,8 +71,6 @@ dependencies {
 	implementation(libs.nightconfig.toml)
 	modImplementation(libs.spruceui)
 	include(libs.spruceui)
-	modImplementation(libs.pridelib)
-	include(libs.pridelib)
 
 	modImplementation(libs.modmenu) {
 		this.isTransitive = false
